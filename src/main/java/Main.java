@@ -29,6 +29,7 @@ public class Main {
 
     public static void main(final String[] args) throws Exception {
         final Session session = getSession();
+        System.out.println("kang");
         try {
             System.out.println("querying all the managed entities...");
             //获取元数据
